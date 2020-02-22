@@ -6,12 +6,12 @@ spring:
     port: 5672
     username: root
     password: 123456
- datasource:
-   driver-class-name: com.mysql.cj.jdbc.Driver
-   username: root
-   password: 123456
-   url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Shell?serverTimezone=UTC
- jpa:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Shell?serverTimezone=UTC
+  jpa:
    show-sql: true
 server:
   port: 8083
