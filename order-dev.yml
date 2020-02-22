@@ -1,6 +1,11 @@
 spring:
   application:
     name: configServer
+  rabbitmq:
+    host: 192.168.189.128
+    port: 5672
+    username: root
+    password: 123456
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 #    username: root
