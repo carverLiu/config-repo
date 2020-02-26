@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: apiGateway
 server:
   port: 8086
 eureka:
